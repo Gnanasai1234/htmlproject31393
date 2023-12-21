@@ -1,0 +1,87 @@
+<html>
+
+
+<head>
+<title>MSWD</title>
+<style>
+.navbar{
+  background-color: lightgray;
+  padding: 10px;
+}
+body{
+  background-image: url("Images/bgimage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+form {
+      width: 300px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      
+    }
+  
+    input[type="email"],input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+  
+    input[type="submit"],input[type="reset"] {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .button{
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  
+    input[type="submit"]:hover {
+      background-color: #45a049;
+   
+}
+</style>
+
+</head>
+
+
+<body bgcolor="#B6C4B6">
+<h2 align="center" style="color: white">Student Information System </h2>
+<br/>
+
+</p>
+<div class="navbar">
+<a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+<a href="registration.html">Registration</a>&nbsp;&nbsp;&nbsp;
+<a href="login.html">Login</a>&nbsp;&nbsp;&nbsp;
+<a href="contact.html">Contact US</a>&nbsp;&nbsp;&nbsp;
+<a href="https://newerp.kluniversity.in/" target="_blank">Erp</a>&nbsp;&nbsp;&nbsp;
+</div>
+<br><br>
+<form method="post" action="studenthome.html" align="center">
+Email Address <input type="email" name="emailid" required/>
+<br/><br/>
+Password  <input type="password" name="pwd">
+<br><br>
+
+<input type="submit" value="Login" class="button"/>
+<input type="reset" value="Clear" class="button"/>
+</form> 
+<p style="text-align: center; color:white" >
+  New User ? <a href="registration.html" >  <input type="button" value="Register Here" class="button"></a>
+</body>
+</html>
